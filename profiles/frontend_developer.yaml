@@ -1,0 +1,22 @@
+name: "Jamie"
+search:
+  titles:
+    - "Front End Developer"
+    - "React Developer"
+    - "UI Engineer"
+  location: "San Francisco, CA"
+  remote_only: true
+  min_salary: 120000
+resume:
+  path: "C:/path/to/jamie_frontend_resume.pdf"
+  must_have_skills:
+    - "React"
+    - "TypeScript"
+    - "JavaScript"
+    - "CSS"
+    - "Tailwind"
+    - "Next.js"
+  keywords_weight: 1.5
+export:
+  format: "pdf,json"
+  output_dir: "results"
