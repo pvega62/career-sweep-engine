@@ -1,4 +1,5 @@
 name: "Jamie"
+
 search:
   titles:
     - "Front End Developer"
@@ -6,7 +7,9 @@ search:
     - "UI Engineer"
   location: "San Francisco, CA"
   remote_only: true
+  include_hybrid: false   # Set to true to include hybrid positions
   min_salary: 120000
+
 resume:
   path: "C:/path/to/jamie_frontend_resume.pdf"
   must_have_skills:
@@ -17,6 +20,15 @@ resume:
     - "Tailwind"
     - "Next.js"
   keywords_weight: 1.5
+
+platforms:
+  greenhouse: true
+  ashby: true
+  lever: true
+  workable: true
+  aggregators: false
+  custom: []   # Add custom ATS domains here if needed
+
 export:
   format: "pdf,json"
   output_dir: "results"
